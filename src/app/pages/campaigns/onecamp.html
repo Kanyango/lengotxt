@@ -1,0 +1,38 @@
+<br>
+<br>
+<div class="ui grid container">
+    <div class="two wide column"></div>
+    <div class="twelve wide column">
+        <p style="font-size: 22px;">Campaign: SMS JOIN and win Airtime</p>
+        <hr>
+        <div class="ui fluid card">
+            <div class="content">
+                <div class="header">
+                    Analytics
+                </div>
+            </div>
+            <div class="content">
+            
+            </div>
+        </div>
+        <div class="ui fluid card">
+            <div class="content">
+                <button class="ui orange right floated button">send survey</button>
+                
+                <div class="header">
+                    Responses
+                </div>
+            </div>
+            <div class="content">
+                <div class="ui selection list">
+                  <div class="item" *ngFor="let item of responses; let i = index"> 
+                    <div class="content">
+                      <div class="header">{{ i + 1 }}. {{ item }}</div>
+                    </div>
+                  </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
